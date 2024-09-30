@@ -72,7 +72,7 @@ include "koneksi.php";
                                         $level = $_POST['level'];
                                         $password = md5($_POST['password']);
 
-                                        $insert = mysqli_query($koneksi, "INSERT INTO user(nama,email,alamat,no_telepon,username,password,level) VALUES('$nama', '$email', '$alamat','$no_telepon','$username','$password','$level')");
+                                        $insert = mysqli_query($koneksi, "INSERT INTO user(nama,email,username,password,level) VALUES('$nama', '$email','$username','$password','$level')");
 
                                         if ($insert) {
                                             echo '<script>alert("Selamat, register berhasil. Silahkan login"); location.href="login.php"</script>';
