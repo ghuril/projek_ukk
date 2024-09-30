@@ -106,7 +106,7 @@
                         <?php
                             echo mysqli_num_rows(mysqli_query($koneksi, "SELECT * FROM kategori"));
                         ?>
-                        <h5>Total Kategori</h5>
+                        <h5>Kategori</h5>
                     </div>
                     <div class="card-footer d-flex align-items-center justify-content-between">
                         <a class="small text-dark stretched-link" href="#">View Details</a>
@@ -120,7 +120,7 @@
                         <?php
                             echo mysqli_num_rows(mysqli_query($koneksi, "SELECT * FROM album"));
                         ?>
-                        <h5>Total Album</h5>
+                        <h5>Album</h5>
                     </div>
                     <div class="card-footer d-flex align-items-center justify-content-between">
                         <a class="small text-dark stretched-link" href="#">View Details</a>
@@ -134,7 +134,7 @@
                         <?php
                             echo mysqli_num_rows(mysqli_query($koneksi, "SELECT * FROM komentar"));
                         ?>
-                        <h5>Total Komentar</h5>
+                        <h5>Komentar</h5>
                     </div>
                     <div class="card-footer d-flex align-items-center justify-content-between">
                         <a class="small text-dark stretched-link" href="#">View Details</a>
@@ -148,7 +148,7 @@
                         <?php
                             echo mysqli_num_rows(mysqli_query($koneksi, "SELECT * FROM user"));
                         ?>
-                        <h5>Total User</h5>
+                        <h5>User</h5>
                     </div>
                     <div class="card-footer d-flex align-items-center justify-content-between">
                         <a class="small text-dark stretched-link" href="#">View Details</a>
